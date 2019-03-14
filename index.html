@@ -26,17 +26,17 @@
             <img src="https://app.salesdrip.com/users/myteam45801/Media24.jpg" alt="">
           </div>
           <div class="lowheadnav">
-            <div class="headnavitem"> 
-              Example
+            <div class="headnavitem">
+              About
             </div>
             <div class="headnavitem">
-              Example
+              Services
             </div>
             <div class="headnavitem">
-              Example
+              Shipping Tools
             </div>
             <div class="headnavitem">
-              Example
+              Contact
             </div>
           </div>
           <div class="lowheadbutton">
@@ -48,6 +48,10 @@
       <div class="body">
         <div class="banner">
           <div class="bannertext">
+            <!-- <div class="block">
+              defg
+
+            </div> -->
             <div class="title">
               Empire Freight West
             </div>
@@ -63,12 +67,39 @@
           </div>
         <div class="sectionone">
           <div class="sectiononetext">
-            <div class="testbox">
+            <div  class="loginonebox">
+              <div onclick="showlogin()" class="testbox">
               DLS Worldwide
+              </div>
+                                                      <!-- Login Forms Section -->
+
+                  <form name="client-login" id="client-login" action="https://rrd.mercurygate.net/MercuryGate/login/LoginProcess.jsp" method="post">
+      	             <input type="text" name="UserId" id="client-name" value="" placeholder="Username">
+      	             <input type="password" name="Password" id="client-password" value="" placeholder="Password">
+      	             <input type="submit" value="Go" id="client-login-submit">
+                     </form>
             </div>
-            <div class="testbox">
-              EFL Client Login
+            <div class="logintwobox">
+              <div onclick="showlogintwo()" class="testbox">
+                EFL Client Login
+              </div>
+
+              <form name="client-login2" id="client-login2" action="http://empirefreightlogistics.3plsystemscloud.com/App_BW/authenticate/authenticate.aspx" method="post">
+
+                  <input type="text" name="email" id="client-name" value="" placeholder="Username">
+                  <input type="password" name="password" id="client-password" value="" placeholder="Password">
+                  <input type="submit" value="Go" id="client-login-submit">
+
+              </form>
+
             </div>
+
+
+
+
+
+
+
           </div>
         </div>
         <div class="sectiontwo">
@@ -95,7 +126,9 @@
               <h3>LTL Services</h3>
               <p>Less-than-truckload shipping (commonly known as LTL) or partial freight can be a process that is difficult to organize,
               manage and execute. From LTL classifications, to pricing structures and lane optimization the process can seem overwhelming.
-              Let EFL simplify the process.</p>
+              Let EFL simplify the process.
+              <br><br> <span class="red">Click Here to learn more.</span></p>
+
             </div>
             <div class="testboxservice">
               <div class="testimgTL">
@@ -104,7 +137,8 @@
               <h3>Truckload Services</h3>
               <p>EFL knows how important it is for your businesses goods to be delivered safely and on time. No matter how near or far,
                  we know all of our customers entrust us to handle their Truck load shipments like they are our own – and that is exactly
-                 what we do.</p>
+                 what we do.
+               <br><br> <span class="red">Click Here to learn more.</span></p>
             </div>
             <div class="linespace"></div>
             <div class="testboxservice">
@@ -113,7 +147,7 @@
               </div>
               <h3>Time Critical</h3>
               <p>At EFL we will utilize every air and ground capability at our disposal to make sure your shipment arrives where you want it,
-                 when you want it there.  We have partnered with RR Donnelley’s DLS Worldwide</p>
+                 when you want it there.  We have partnered with RR Donnelley’s DLS Worldwide <br><br> <span class="red">Click Here to learn more.</span></p>
             </div>
             <div class="testboxservice">
               <div class="testimgwhiteglove">
@@ -122,7 +156,7 @@
               <h3>White Glove</h3>
               <p>Does your shipment have special needs? If so you can count on EFL to handle it. We have partnered with RR Donnelley’s
                  DLS Worldwide to provide a wide-range of service of complete service offerings, or use any combination. We tailor
-                  to your needs.</p>
+                  to your needs. <br><br> <span class="red">Click Here to learn more.</span></p>
             </div>
             <div class="linespace"></div>
             <div class="testboxservice">
@@ -132,7 +166,7 @@
               <h3>International</h3>
               <p>At EFL, we’re not bound by the continental roadways to get your shipment where it needs to be.   We have partnered with
                 RR Donnelley’s DLS Worldwide. This has given us connections around the world for air and ocean transport, offering a vast
-                number of options for the delivery of your shipment.</p>
+                number of options for the delivery of your shipment. <br><br> <span class="red">Click Here to learn more.</span></p>
             </div>
             <div class="testboxservice">
               <div class="testimgbill">
@@ -141,7 +175,7 @@
               <h3>Freight Bill Audit</h3>
               <p>When it comes to freight invoice and payments, we can use our expertise in the industry to your benefit. Knowing and
                 understanding the financial measures of the transportation industry, EFL can reduce the clerical effort our part, ultimately
-                 lowering your total processing expense.</p>
+                 lowering your total processing expense. <br><br> <span class="red">Click Here to learn more.</span></p>
             </div>
             <div class="linespace"></div>
             <div class="testboxservice">
@@ -150,7 +184,8 @@
               </div>
               <h3>Distribution</h3>
               <p>EFL’s integrated supply chain solutions provide customers with a flexible way to do business.  We recognize each
-                 customer’s needs are unique, so we are able to execute tasks in a flexible and customizable manner.</p>
+                 customer’s needs are unique, so we are able to execute tasks in a flexible and customizable manner.
+                 <br><br> <span class="red">Click Here to learn more.</span></p>
             </div>
           </div>
         </div>
@@ -228,6 +263,27 @@
           </div>
         </div>
       </div>
+
+      <script>
+      function showlogin() {
+        var x = document.getElementById("client-login");
+        if (x.style.display === "none") {
+          x.style.display = "block";
+        } else {
+          x.style.display = "none";
+        }
+      }
+      </script>
+      <script>
+      function showlogintwo() {
+        var x = document.getElementById("client-login2");
+        if (x.style.display === "none") {
+          x.style.display = "block";
+        } else {
+          x.style.display = "none";
+        }
+      }
+      </script>
 
 
       <script>

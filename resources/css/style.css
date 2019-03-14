@@ -48,13 +48,13 @@ body {
 
 
 #client-login {
-
+  /*display: none;*/
   margin-top: 2rem;
   margin-bottom: 2rem;
 }
 
 #client-login2 {
-  
+  /*display: none;*/
   margin-top: 2rem;
   margin-bottom: 2rem;
 }
@@ -233,9 +233,18 @@ font-family: 'Montserrat', sans-serif;
   transition: all 400ms ease;
 }
 
+.testbox a{
+  color: black;
+  text-decoration: none;
+}
+
 .testbox:hover {
   background-color: black;
   color: rgb(255, 44, 45);
+}
+
+.testbox a:hover {
+  color: white;
 }
 
 

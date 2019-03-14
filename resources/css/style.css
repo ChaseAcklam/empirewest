@@ -7,7 +7,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column; 
+  flex-direction: column;
   width: 100%;
 }
 
@@ -310,7 +310,7 @@ font-family: 'Montserrat', sans-serif;
   font-size: 3rem;
   font-weight: bolder;
   color: white;
-  opacity: 0;
+  opacity: 1;
   transition: all 300ms ease;
 }
 
@@ -328,7 +328,7 @@ font-family: 'Montserrat', sans-serif;
   font-size: 3rem;
   font-weight: bolder;
   color: white;
-  opacity: 0;
+  opacity: 1;
   transition: all 300ms ease;
 }
 
@@ -346,7 +346,7 @@ font-family: 'Montserrat', sans-serif;
   font-size: 3rem;
   font-weight: bolder;
   color: white;
-  opacity: 0;
+  opacity: 1;
   transition: all 300ms ease;
 }
 
@@ -364,7 +364,7 @@ font-family: 'Montserrat', sans-serif;
   font-size: 3rem;
   font-weight: bolder;
   color: white;
-  opacity: 0;
+  opacity: 1;
   transition: all 300ms ease;
 }
 
@@ -382,7 +382,7 @@ font-family: 'Montserrat', sans-serif;
   font-size: 3rem;
   font-weight: bolder;
   color: white;
-  opacity: 0;
+  opacity: 1;
   transition: all 300ms ease;
 }
 
@@ -400,7 +400,7 @@ font-family: 'Montserrat', sans-serif;
   font-size: 3rem;
   font-weight: bolder;
   color: white;
-  opacity: 0;
+  opacity: 1;
   transition: all 300ms ease;
 }
 
@@ -418,7 +418,7 @@ font-family: 'Montserrat', sans-serif;
   font-size: 3rem;
   font-weight: bolder;
   color: white;
-  opacity: 0;
+  opacity: 1;
   transition: all 300ms ease;
 }
 
@@ -444,25 +444,25 @@ font-family: 'Montserrat', sans-serif;
 }
 
 .testimgltl:hover {
-  opacity: 1;
+  opacity: 0;
 }
 .testimgTL:hover {
-  opacity: 1;
+  opacity: 0;
 }
 .testimgtimecritical:hover {
-  opacity: 1;
+  opacity: 0;
 }
 .testimgwhiteglove:hover {
-  opacity: 1;
+  opacity: 0;
 }
 .testimginter:hover {
-  opacity: 1;
+  opacity: 0;
 }
 .testimgbill:hover {
-  opacity: 1;
+  opacity: 0;
 }
 .testimgdist:hover {
-  opacity: 1;
+  opacity: 0;
 }
 
 

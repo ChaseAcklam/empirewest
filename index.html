@@ -73,7 +73,7 @@
               </div>
                                                       <!-- Login Forms Section -->
 
-                  <form name="client-login" id="client-login" action="https://rrd.mercurygate.net/MercuryGate/login/LoginProcess.jsp" method="post">
+                  <form name="client-login" id="client-login" action="https://rrd.mercurygate.net/MercuryGate/login/LoginProcess.jsp" target="_blank" method="post">
       	             <input type="text" name="UserId" id="client-name" value="" placeholder="Username">
       	             <input type="password" name="Password" id="client-password" value="" placeholder="Password">
       	             <input type="submit" value="Go" id="client-login-submit">
@@ -84,7 +84,7 @@
                 EFL Client Login
               </div>
 
-              <form name="client-login2" id="client-login2" action="http://empirefreightlogistics.3plsystemscloud.com/App_BW/authenticate/authenticate.aspx" method="post">
+              <form name="client-login2" id="client-login2" action="http://empirefreightlogistics.3plsystemscloud.com/App_BW/authenticate/authenticate.aspx" target="_blank" method="post">
 
                   <input type="text" name="email" id="client-name" value="" placeholder="Username">
                   <input type="password" name="password" id="client-password" value="" placeholder="Password">
@@ -293,7 +293,7 @@ window.onscroll = function() {myFunction()};
 function myFunction() {
   var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
   var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-  var scrolled = (winScroll / height) * 250;
+  var scrolled = (winScroll / height) * 300;
   document.getElementById("myBar").style.width = scrolled + "%";
 }
 </script>

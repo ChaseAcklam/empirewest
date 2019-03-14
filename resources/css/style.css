@@ -272,6 +272,7 @@ font-family: 'Montserrat', sans-serif;
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
   width: 100%;
   background-color: black;
   padding-bottom: 10rem;
@@ -289,6 +290,11 @@ font-family: 'Montserrat', sans-serif;
   color: white;
   font-family: 'Montserrat', sans-serif;
   line-height: 1.5;
+}
+
+#truckvid {
+  width: 60rem;
+  margin-top: 5rem;
 }
 
 .sectiontwotext h3{

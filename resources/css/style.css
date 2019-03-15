@@ -378,7 +378,10 @@ a {
   color: white;
   opacity: 1;
   transition: all 300ms ease;
-  text-shadow: 4px 4px black;
+  text-shadow: -3px -3px 0 #000,
+		3px -3px 0 #000,
+		-3px 3px 0 #000,
+		3px 3px 0 #000;
 }
 
 .testimgtimecritical {
@@ -389,7 +392,7 @@ a {
   align-items: center;
   justify-content: flex-start;
   flex-direction: column;
-  background-image: url("https://app.salesdrip.com/users/myteam45801/Media3.jpg");
+  background-image: url("https://app.salesdrip.com/users/myteam45801/Media28.jpg");
   background-position: center;
   background-size: cover;
   cursor: pointer;
@@ -398,7 +401,10 @@ a {
   color: white;
   opacity: 1;
   transition: all 300ms ease;
-  text-shadow: 4px 4px black;
+  text-shadow: -3px -3px 0 #000,
+		3px -3px 0 #000,
+		-3px 3px 0 #000,
+		3px 3px 0 #000;
 }
 
 .testimgwhiteglove {
@@ -418,7 +424,10 @@ a {
   color: white;
   opacity: 1;
   transition: all 300ms ease;
-  text-shadow: 4px 4px black;
+  text-shadow: -3px -3px 0 #000,
+		3px -3px 0 #000,
+		-3px 3px 0 #000,
+		3px 3px 0 #000;
 }
 
 .testimginter {
@@ -438,7 +447,10 @@ a {
   color: white;
   opacity: 1;
   transition: all 300ms ease;
-  text-shadow: 4px 4px black;
+  text-shadow: -3px -3px 0 #000,
+		3px -3px 0 #000,
+		-3px 3px 0 #000,
+		3px 3px 0 #000;
 }
 
 .testimgbill {
@@ -449,7 +461,7 @@ a {
   align-items: center;
   justify-content: flex-start;
   flex-direction: column;
-  background-image: url("https://app.salesdrip.com/users/myteam45801/Media17.jpg");
+  background-image: url("https://app.salesdrip.com/users/myteam45801/Media29.jpg");
   background-position: center;
   background-size: cover;
   cursor: pointer;
@@ -458,7 +470,10 @@ a {
   color: white;
   opacity: 1;
   transition: all 300ms ease;
-  text-shadow: 4px 4px black;
+  text-shadow: -3px -3px 0 #000,
+		3px -3px 0 #000,
+		-3px 3px 0 #000,
+		3px 3px 0 #000;
 }
 
 .testimgdist {
@@ -469,7 +484,7 @@ a {
   align-items: center;
   justify-content: flex-start;
   flex-direction: column;
-  background-image: url("https://app.salesdrip.com/users/myteam45801/Media7.jpg");
+  background-image: url("https://app.salesdrip.com/users/myteam45801/Media30.jpg");
   background-position: center;
   background-size: cover;
   cursor: pointer;
@@ -478,7 +493,10 @@ a {
   color: white;
   opacity: 1;
   transition: all 300ms ease;
-  text-shadow: 4px 4px black;
+  text-shadow: -3px -3px 0 #000,
+		3px -3px 0 #000,
+		-3px 3px 0 #000,
+		3px 3px 0 #000;
 }
 
 .testimgTL {
@@ -489,7 +507,7 @@ a {
   align-items: center;
   justify-content: flex-start;
   flex-direction: column;
-  background-image: url("https://app.salesdrip.com/users/myteam45801/Media6.jpg");
+  background-image: url("https://app.salesdrip.com/users/myteam45801/Media27.jpg");
   background-position: center;
   background-size: cover;
   cursor: pointer;
@@ -498,7 +516,79 @@ a {
   color: white;
   opacity: 1;
   transition: all 300ms ease;
-  text-shadow: 4px 4px black;
+  text-shadow: -3px -3px 0 #000,
+		3px -3px 0 #000,
+		-3px 3px 0 #000,
+		3px 3px 0 #000;
+}
+
+.testimgrail {
+  position: absolute;
+  width: 30rem;
+  height: 15rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  background-image: url("https://app.salesdrip.com/users/myteam45801/Media26.jpg");
+  background-position: center;
+  background-size: cover;
+  cursor: pointer;
+  font-size: 3rem;
+  font-weight: bolder;
+  color: white;
+  opacity: 1;
+  transition: all 300ms ease;
+  text-shadow: -3px -3px 0 #000,
+		3px -3px 0 #000,
+		-3px 3px 0 #000,
+		3px 3px 0 #000;
+}
+
+.testimgvolume {
+  position: absolute;
+  width: 30rem;
+  height: 15rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  background-image: url("https://app.salesdrip.com/users/myteam45801/Media32.jpg");
+  background-position: center;
+  background-size: cover;
+  cursor: pointer;
+  font-size: 3rem;
+  font-weight: bolder;
+  color: white;
+  opacity: 1;
+  transition: all 300ms ease;
+  text-shadow: -3px -3px 0 #000,
+		3px -3px 0 #000,
+		-3px 3px 0 #000,
+		3px 3px 0 #000;
+}
+
+.testimgflat {
+  position: absolute;
+  width: 30rem;
+  height: 15rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  background-image: url("https://app.salesdrip.com/users/myteam45801/Media31.jpg");
+  background-position: center;
+  background-size: cover;
+  cursor: pointer;
+  font-size: 3rem;
+  font-weight: bolder;
+  color: white;
+  opacity: 1;
+  transition: all 300ms ease;
+  text-shadow: -3px -3px 0 #000,
+		3px -3px 0 #000,
+		-3px 3px 0 #000,
+		3px 3px 0 #000;
 }
 
 .testboxservice {
@@ -550,6 +640,15 @@ a {
   opacity: 0;
 }
 .testimgdist:hover {
+  opacity: 0;
+}
+.testimgrail:hover {
+  opacity: 0;
+}
+.testimgvolume:hover {
+  opacity: 0;
+}
+.testimgflat:hover {
   opacity: 0;
 }
 
@@ -705,7 +804,34 @@ a {
   height: 70rem;
 }
 
+.railbody {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 70rem;
+}
+
 .distbody {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 70rem;
+}
+
+.volumebody {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 70rem;
+}
+
+.flatbody {
   display: flex;
   justify-content: center;
   align-items: center;

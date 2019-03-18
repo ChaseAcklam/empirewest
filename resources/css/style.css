@@ -113,16 +113,17 @@ body {
   width: 40%;
 }
 
-.headnavitem {
+.headnavitem a{
+  color: white;
 transition: all 400ms ease;
 font-family: 'Montserrat', sans-serif;
 }
 
-.headnavitem:hover {
+.headnavitem a:hover {
   color: rgb(255, 44, 45);
 }
 
-.lowheadbutton {
+.lowheadbutton a{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -137,7 +138,7 @@ font-family: 'Montserrat', sans-serif;
   transition: all 400ms ease;
 }
 
-.lowheadbutton:hover {
+.lowheadbutton a:hover {
   border: 8px solid white;
   font-size: 2.1rem;
   color: rgb(255, 44, 45);
@@ -755,6 +756,11 @@ a {
   margin-right: 5rem;
 }
 
+.footcolumnitem a {
+  color: white;
+  font-size: .9rem;
+}
+
 .footcolumnitem h3 {
   color: black;
 }
@@ -883,7 +889,7 @@ a {
   flex-direction: column;
   width: 1200px;
   height: 100%;
-  
+
 }
 
 .servicecontent {
@@ -917,4 +923,29 @@ a {
   font-size: 2rem;
   font-weight: bold;
   color: rgb(255, 44, 45);
+}
+
+.toolbody {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 1200px;
+}
+
+.tooltitle {
+  margin-bottom: 5rem;
+  font-size: 2rem;
+  color: rgb(255, 44, 45);
+}
+
+.toolcontent {
+  width: 100%;
+  line-height: 2;
+}
+
+.tooltitle, li a{
+  color: red;
 }
